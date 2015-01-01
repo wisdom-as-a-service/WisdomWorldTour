@@ -2,6 +2,10 @@ sculpin_content_types:
     posts:
         type: path
         permalink: blog/:basename/index.html
+    faqs:
+        type: path
+        layout: default
+        permalink: faqs/:basename/index.html
     events:
         type: path
         layout: default
