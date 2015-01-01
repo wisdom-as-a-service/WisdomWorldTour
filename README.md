@@ -1,4 +1,1 @@
-WisdomWorldTour
-===============
-
-Wisdom as a Service World Tour Website (Engine)
+# Wisdom as a Service World Tour Web Site

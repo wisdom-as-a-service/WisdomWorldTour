@@ -1,0 +1,14 @@
+---
+layout: default
+title: Events
+use:
+    - events
+---
+<div class="jumbotron">Tour Events</div>
+<div class="body">
+    <div class="event-section">Upcoming</div>
+        {# I wish these were not type path. #}
+        {% for event in data.events|reverse %}
+            {% include "_event.twig" %}
+        {% endfor %}
+</div>

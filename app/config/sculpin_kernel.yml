@@ -1,0 +1,8 @@
+sculpin_content_types:
+    posts:
+        type: path
+        permalink: blog/:basename/index.html
+    events:
+        type: path
+        layout: default
+        permalink: events/:basename/index.html
