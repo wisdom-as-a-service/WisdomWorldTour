@@ -6,7 +6,7 @@ class SculpinKernel
 	protected function getAdditionalSculpinBundles()
 	{
 		return [
-			'Mavimo\Sculpin\Bundle\RedirectBundle\SculpinRedirectBundle'
+
 		];
 	}
 }

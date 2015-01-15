@@ -1,8 +1,18 @@
 sculpin_content_types:
     posts:
         type: path
+        layout: post
         permalink: blog/:basename/index.html
     events:
         type: path
         layout: default
         permalink: events/:basename/index.html
+    faqs:
+        type: path
+        layout: default
+        permalink: faqs/:basename/index.html
+    speakers:
+        type: path
+        layout: default
+        permalink: speakers/:basename/index.html
+
