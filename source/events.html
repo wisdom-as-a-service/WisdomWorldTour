@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Events
+title: Tour Events
 use:
     - events
 ---
-<div class="jumbotron">Tour Events</div>
+<div class="marquee">Tour Events</div>
 <div class="body">
     <div class="event-section">Upcoming</div>
-        {# I wish these were not type path. #}
         {% for event in data.events|reverse %}
             {% include "_event.twig" %}
         {% endfor %}
+</div>
+<div class="outro">
+    <p class="text-center">If you would like your message included as part of this worldwide conversation, please review the <a href="sponsorship">Sponsorship Prospectus</a>.</p>
 </div>

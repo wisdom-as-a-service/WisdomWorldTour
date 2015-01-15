@@ -10,7 +10,12 @@
                 {{ post.title }}
             </a>
     </header>
-    <div class="post-body">
-        {{ post.blocks.content|raw }}
-    </div>
+    {% if post.type == 'photo' %}
+        <div class="post-photo">
+            <img src="{{ post.photo_url }}">
+        </div>
+    {% endif %}
+        <div class="post-body">
+            {{ post.blocks.content|raw }}
+        </div>
 </article>

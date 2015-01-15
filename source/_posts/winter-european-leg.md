@@ -4,7 +4,8 @@ date:
 type: text
 draft: false
 date: 2015-01-04 00:01
-use: [events]
+use:
+    - events
 ---
 {% block content %}
 

@@ -1,6 +1,5 @@
 {% extends "default" %}
 
-{% block content_wrapper %}
-    {% include "_post.twig" with {'post': page} %}
-{% endblock %}
+
+{% block content %}{% include "_post.twig" with {'post': page} %}{% endblock %}
 
